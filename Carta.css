@@ -1,0 +1,87 @@
+/* inserto para que no haya margenes originarios de las paginas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+/* Un margen general para toda la carta con sus respectivas line-height para que haya un orden de entendimiento y un color de fondo */
+body{
+    margin: 20%;
+    line-height: 1.6;
+    background-color: antiquewhite;
+}
+/* Primera direccion a modificar, añadiendo un float para posicionarlo a la derecha y complementarla con la otra direccion */
+
+.first_address_div{
+    width: 35%;
+    float: right;
+    text-align: right;
+}
+/* Importante los text align y el height en esta */
+.second_address_div{
+    text-align: left;
+    width: 35%;
+    height: 250px;
+}
+
+/* Mas line-height de lo normal para diferenciar que son los titulos, un color diferente para lo mismo, un tamaño mayor de letra y un subrayado */
+h3{
+    line-height: 3;
+    color: peru;
+    font-size: 25px;
+    text-decoration: underline;
+}
+/* Para darle una mejor vision y separacion de las cosas */
+.fechas{
+    word-spacing: 15px;
+}/* Para darle un estilo de negrita a los elementos señalados con esta clase */
+.negrita{
+    font-weight: bold;
+}
+/* Para la cita que se incluye en una parte de la carta */
+#quotes{
+    quotes: """ """; 
+}
+/* Para que se me corte el texto y no se me desperdige por la hoja */
+.hyphens{
+    hyphens: auto;
+    width: 90%;
+}
+/* Para un mayor orden */
+.lista{
+    margin: 20px;
+    margin-left: 40px;
+}
+/* Para darle el tamaño completo a la imagen y posicionarla en la misma base que el texto. */
+.bandera{
+    width:20px;
+    height:15px;
+    vertical-align: baseline;
+}
+/* Para poner una frase en vertical */
+.writing_mode{
+    writing-mode: vertical-lr; 
+}
+/* Para añadir un margen extra a un parrafo en particular */
+.exotic_dance{
+    margin: 20px;
+}
+/* Para hacer separaciones en la dt y dd */
+dt{
+    line-height: 4;
+}
+/* Para que no se salgan de la celda imaginaria creada */
+.word_wrap{
+    word-wrap: break-word;
+}
+/* Para darle un formato de texto a la carta*/
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 0;
+    font-style: normal;
+}
+/*Para dar cursiva a los elementos que lo requieran*/
+.cursiva{
+    font-style: italic;
+}
